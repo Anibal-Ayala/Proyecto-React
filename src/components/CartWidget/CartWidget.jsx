@@ -4,7 +4,7 @@ import logo from './assets/carrito.png'
 const CartWidget = () =>{
     return(
         <div  >
-            <img src={logo}  />
+            <img style={{width:30}} src={logo}  />
             0
         </div>
     )
