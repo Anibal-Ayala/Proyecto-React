@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { getProductbyId } from "../../asyncMock"
 import ItemDetail from "../ItemDetail/ItemDetail"
 import { useParams } from "react-router-dom"
+import classes from "./ItemDetailContainer.module.css"
 
 
 const ItemDetailContainer = () => {
@@ -18,8 +19,8 @@ const ItemDetailContainer = () => {
     }, [productId])
 
     return (
-        <div>
-            <h2 style={{margin:16}}>Detalle del Producto</h2>
+        <div className ={classes.caja}>
+            <h2 className={classes.titulo}>Detalle del Producto</h2>
             <ItemDetail {...product}/>
         </div>
     )

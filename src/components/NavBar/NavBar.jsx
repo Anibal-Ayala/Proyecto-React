@@ -4,6 +4,7 @@ import classes from './NavBar.module.css'
 import CartWidget from '../CartWidget/CartWidget'
 
 
+
 const NavBar = () => {
     return (
         <nav>
@@ -13,9 +14,9 @@ const NavBar = () => {
             <section className={classes.seccion}>
 
                 
-                  <Link to={'/category/celular'}>Celulares</Link>
-                  <Link to={'/category/tablet'}>Tablets</Link>
-                  <Link to={'/category/notebook'}>Notebooks</Link>
+                  <button style={{margin:8, borderRadius:"10%"}} className="btn-btn-primary"><Link to={'/category/celular'}className="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Celulares</Link></button>
+                <button style={{margin:8, borderRadius:"10%"}}> <Link to={'/category/tablet'}>Tablets</Link></button> 
+                 <button style={{margin:8, borderRadius:"10%"}}> <Link to={'/category/notebook'}>Notebooks</Link></button>
 
             </section>
            

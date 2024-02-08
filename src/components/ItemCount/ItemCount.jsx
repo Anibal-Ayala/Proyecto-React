@@ -1,4 +1,5 @@
 import { useState } from "react"
+import classes from "./ItemCount.module.css"
 
 
 
@@ -24,11 +25,11 @@ const decrement = () => {
 }
 
     return (
-        <div style={{margin:16}}>
-            <h3 >{count}</h3>
-            <button onClick={decrement}>-</button>
-            <button onClick={()=>onAdd (count)}>Agregar al Carrito</button>
-            <button onClick={increment}>+</button>
+        <div >
+            <h3 className={classes.titulo}>{count}</h3>
+            <button onClick={decrement} className="btn btn-outline-primary" style={{margin:8}}>-</button>
+            <button onClick={()=>onAdd (count)}className="btn btn-outline-primary"style={{margin:8}}>Agregar al Carrito 🛒  </button>
+            <button onClick={increment} className="btn btn-outline-primary" style={{margin:8}} >+</button>
         </div>
     )
 }
