@@ -28,7 +28,7 @@ const ItemDetail = ({ id, name, img, category, price, description, stock }) => {
         <article className={classes.articulo}>
 
 
-            <div className="card" style={{backgroundColor:"yellow"}} >
+            <div className="card"  >
 
                 <img src={img} className={classes.imagen} />
                 <div className="card-body" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
