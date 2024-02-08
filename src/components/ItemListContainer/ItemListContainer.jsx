@@ -26,10 +26,11 @@ useEffect(()=>{
 
     return (
 <div>
+     
+
 <h1 className={classes.titulo}>  {greeting + (categoryId ?? '')} </h1>
 
-    <ItemList products={products}/>
-
+   <ItemList products={products}/>
 
 </div>
     )

@@ -7,10 +7,10 @@ import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
     return (
-        <nav>
+        <nav>     <CartWidget />
             <Link to={'/'}>  <h1 className={classes.titulo}>E-Commerce</h1></Link>
           
-            <CartWidget />
+       
             <section className={classes.seccion}>
 
                 
