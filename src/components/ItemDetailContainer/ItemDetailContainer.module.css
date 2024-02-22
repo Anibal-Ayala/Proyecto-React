@@ -1,12 +1,15 @@
 .titulo{
-    text-align: start;
+  
+    margin: 2rem;
+text-align: center;
+ }
   
    
-    margin: 2rem;
-}
+
 
 .caja{
     display: flex;
    flex-direction: row;
-   align-items: start;
+ align-items: center;
+ justify-content: center;
 }

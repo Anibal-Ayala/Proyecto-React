@@ -5,7 +5,7 @@ const Footer = () =>{
         <div style={{display:"flex", justifyContent:"center", flexDirection:"row"}}>
         <p style={{margin: 8}}>Facebook</p>
         <p style={{margin: 8}}>Instagram</p>
-        <p style={{margin: 8}}>Telegram</p>
+        <p style={{margin: 8}}>Github</p>
         </div>
         </article>
     )

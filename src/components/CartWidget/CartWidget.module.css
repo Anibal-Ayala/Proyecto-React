@@ -2,9 +2,13 @@
     display: flex;
     margin: 2rem;
     justify-content: flex-end;
+
+  
+
 }
 
 
 .imagen{
-    width: 30px;
+    width: 40px;
+  
 }

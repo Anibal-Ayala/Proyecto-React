@@ -6,7 +6,7 @@ const Item = ({ id, name, img, category, price }) => {
     return (
         <article  >
 
-            <div style={{ width: 300, height: 500, margin: 16, display: "flex", flexDirection: "column", alignItems: "center", }} className="card" >
+            <div style={{ width: 300, height: 500, margin: 16, display: "flex", flexDirection: "column", alignItems: "center", }}  className="card"  >
 
 
                 <img src={img} style={{ width: '60%', margin: '2rem' }} className='card-img-top' />

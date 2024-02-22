@@ -1,18 +1,9 @@
 .titulo{
-  margin: 2rem;
- text-align: start;
- 
-}
+  margin: 1rem;
 
-.seccion{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
+
 }
 
 
-.boton{
-    margin: 1rem;
-}
 
 

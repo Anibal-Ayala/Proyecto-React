@@ -7,19 +7,21 @@ import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
     return (
-        <nav>     <CartWidget />
-            <Link to={'/'}>  <h1 className={classes.titulo}>E-Commerce</h1></Link>
+        <nav style={{display: 'flex', justifyContent: 'space-around', backgroundColor:'khaki'}}>    
+            
+       
+            <Link to={'/'}>  <h1 className={classes.titulo}>Tienda de Celulares</h1></Link>
           
        
-            <section className={classes.seccion}>
+          
 
                 
-                  <button style={{margin:8, borderRadius:"10%"}} className="btn-btn-primary"><Link to={'/category/celular'}className="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Celulares</Link></button>
-                <button style={{margin:8, borderRadius:"10%"}}> <Link to={'/category/tablet'}>Tablets</Link></button> 
-                 <button style={{margin:8, borderRadius:"10%"}}> <Link to={'/category/notebook'}>Notebooks</Link></button>
-
-            </section>
-           
+                  <button style={{margin:24, borderRadius:"10%", width: 100, height: 50}} className="btn-btn-primary"><Link to={'/category/iPhone'}className="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">iPhone</Link></button>
+                <button style={{margin:24, borderRadius:"10%", width: 100, height: 50}}> <Link to={'/category/Samsung'}>Samsung</Link></button> 
+                 <button style={{margin:24, borderRadius:"10%", width: 100, height: 50}}> <Link to={'/category/Xiaomi'}>Xiaomi</Link></button>
+                
+       
+            <CartWidget />
         </nav>
     )
 }

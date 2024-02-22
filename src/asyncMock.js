@@ -3,7 +3,7 @@ const products =[
         id: '1',
        name: 'iPhone 11 PRO',
        price : 400,
-       category: 'celular',
+       category: 'iPhone',
         img : 'https://f.fcdn.app/imgs/ccc276/electroventas.com.uy/elecuy/ae03/webp/catalogo/IPHONESE-128BL1/460x600/celular-iphone-se-2020-128gb-refurbished-blanco.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
@@ -12,7 +12,7 @@ const products =[
         id: '2',
        name: 'iPhone XR',
        price :500,
-       category: 'celular',
+       category: 'iPhone',
         img: 'https://f.fcdn.app/imgs/4cbc15/electroventas.com.uy/elecuy/8133/webp/catalogo/IPHONEXR-128NE2/460x600/celular-iphone-xr-128gb-refurbished-negro.jpg', 
        stock : 25,
        description : 'Descripcion del Motorola V3'
@@ -22,7 +22,7 @@ const products =[
         id: '3',
        name: 'iPhone SE 2020',
        price :2000,
-       category: 'celular',
+       category: 'iPhone',
         img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
@@ -33,7 +33,7 @@ const products =[
         id: '4',
        name: 'Ipad 2022 Air',
        price :2000,
-       category: 'tablet',
+       category: 'Samsung',
         img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
@@ -44,7 +44,7 @@ const products =[
         id: '5',
        name: 'Ipad 2022 Air',
        price :2000,
-       category: 'tablet',
+       category: 'Samsung',
         img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
@@ -54,7 +54,7 @@ const products =[
         id: '6',
        name: 'Ipad 2022 Air',
        price :2000,
-       category: 'tablet',
+       category: 'Samsung',
         img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
@@ -65,7 +65,7 @@ const products =[
         id: '7',
        name: 'Ipad 2022 Air',
        price :2000,
-       category: 'notebook',
+       category: 'Xiaomi',
         img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
@@ -75,7 +75,7 @@ const products =[
         id: '8',
        name: 'Ipad 2022 Air',
        price :2000,
-       category: 'notebook',
+       category: 'Xiaomi',
         img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
@@ -86,7 +86,7 @@ const products =[
         id: '9',
        name: 'Ipad 2022 Air',
        price :2000,
-       category: 'notebook',
+       category: 'Xiaomi',
         img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'

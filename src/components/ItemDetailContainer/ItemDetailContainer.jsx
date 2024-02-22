@@ -19,11 +19,15 @@ const ItemDetailContainer = () => {
     }, [productId])
 
     return (
-        <div className ={classes.caja}>
+        <div  >
             <h2 className={classes.titulo}>Detalle del Producto</h2>
-       
-            <ItemDetail {...product}/>
-        </div>
+<div className={classes.caja}> <ItemDetail {...product}/></div>
+           
+
+          
+        </div>  
+
+        
     )
 }
 

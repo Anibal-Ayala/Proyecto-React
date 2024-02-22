@@ -3,23 +3,23 @@ import classes from "./ItemCount.module.css"
 
 
 
-const ItemCount = ({initial = 1, stock, onAdd}) => {
+const ItemCount = ({onAdd}) => {
 
-    const [count, setCount] = useState(initial)
+    const [count, setCount] = useState(0)
 
 
     const increment = () =>{
-        if (count < stock) {
+      
             setCount (prev => prev + 1)
 
-        }
+        
 
     
     
  }
 
 const decrement = () => {
-    if (count > 1) {
+    if (count > 0) {
         setCount (prev => prev - 1)
     }
 }
