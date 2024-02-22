@@ -34,7 +34,7 @@ const products =[
        name: 'Ipad 2022 Air',
        price :2000,
        category: 'Samsung',
-        img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
+        img:'https://f.fcdn.app/imgs/40d0c7/www.covercompany.com.uy/coveuy/88ca/webp/catalogo/2-4783_11943_2/460x460/samsung-galaxy-a15-lte-128gb-4gb-ram-dual-sim-blue.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
     },
@@ -45,7 +45,7 @@ const products =[
        name: 'Ipad 2022 Air',
        price :2000,
        category: 'Samsung',
-        img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
+        img:'https://f.fcdn.app/imgs/c58db5/www.covercompany.com.uy/coveuy/f316/webp/catalogo/2-4652_11677_2/460x460/samsung-galaxy-s24-ultra-5g-512gb-12gb-ram-sm-s928b-dual-sim-violeta.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
     },
@@ -55,7 +55,7 @@ const products =[
        name: 'Ipad 2022 Air',
        price :2000,
        category: 'Samsung',
-        img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
+        img:'https://f.fcdn.app/imgs/f21d37/www.covercompany.com.uy/coveuy/337f/webp/catalogo/2-3954_12278_2/460x460/samsung-galaxy-a14-5g-128gb-4gb-ram-dual-sim-green.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
     },
@@ -66,7 +66,7 @@ const products =[
        name: 'Ipad 2022 Air',
        price :2000,
        category: 'Xiaomi',
-        img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
+        img:'https://www.miuruguay.com.uy/wp-content/uploads/2023/09/redmi125g_000-500x500.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
     },
@@ -76,7 +76,7 @@ const products =[
        name: 'Ipad 2022 Air',
        price :2000,
        category: 'Xiaomi',
-        img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
+        img:'https://www.miuruguay.com.uy/wp-content/uploads/2024/01/RedmiNote13ProPlus5G-00-500x500.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
     },
@@ -87,7 +87,7 @@ const products =[
        name: 'Ipad 2022 Air',
        price :2000,
        category: 'Xiaomi',
-        img:'https://f.fcdn.app/imgs/7e20a6/electroventas.com.uy/elecuy/a089/webp/catalogo/IPHONE11P-512GR2/460x600/celular-iphone-11-pro-512gb-refurbished-gris.jpg',
+        img:'https://www.miuruguay.com.uy/wp-content/uploads/2023/09/Xiaomi13T5G_00-1-500x500.jpg',
        stock : 25,
        description : 'Descripcion del Motorola V3'
     },
