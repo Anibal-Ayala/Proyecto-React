@@ -5,23 +5,23 @@ import CartWidget from '../CartWidget/CartWidget'
 
 
 
-const NavBar = () => {
+const NavBar = ({cart}) => {
     return (
-        <nav style={{display: 'flex', justifyContent: 'space-around', backgroundColor:'khaki'}}>    
+        <nav style={{display: 'flex', justifyContent: 'space-around', backgroundColor:'khaki', zIndex:4, position:'relative'}}>    
             
        
-            <Link to={'/'}>  <h1 className={classes.titulo}>Tienda de Celulares</h1></Link>
+            <Link to={'/'} className='link-offset-2 link-underline link-underline-opacity-0'>  <h1 className={classes.titulo}>Tienda de Celulares</h1></Link>
           
        
           
 
                 
-                  <button style={{margin:24, borderRadius:"10%", width: 100, height: 50}} className="btn-btn-primary"><Link to={'/category/iPhone'}className="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">iPhone</Link></button>
-                <button style={{margin:24, borderRadius:"10%", width: 100, height: 50}}> <Link to={'/category/Samsung'}>Samsung</Link></button> 
-                 <button style={{margin:24, borderRadius:"10%", width: 100, height: 50}}> <Link to={'/category/Xiaomi'}>Xiaomi</Link></button>
+                  <button style={{margin:24, borderRadius:"10%", width: 100, height: 50}} className="btn-btn-primary"><Link to={'/category/iPhone'}className="link-offset-2 link-underline link-underline-opacity-0"style={{fontWeight:"bolder", color:"black"}}>iPhone</Link></button>
+                <button style={{margin:24, borderRadius:"10%", width: 100, height: 50}}> <Link to={'/category/Samsung'} className="link-offset-2 link-underline link-underline-opacity-0"style={{fontWeight:"bolder", color:"black"}}>Samsung</Link></button> 
+                 <button style={{margin:24, borderRadius:"10%", width: 100, height: 50}}> <Link to={'/category/Xiaomi'}className="link-offset-2 link-underline link-underline-opacity-0" style={{fontWeight:"bolder", color:"black"}}>Xiaomi</Link></button>
                 
        
-            <CartWidget />
+            <CartWidget cart= {cart} />
         </nav>
     )
 }
