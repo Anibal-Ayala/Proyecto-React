@@ -65,7 +65,7 @@ const getTotal = () =>{
     return accu
 }
 
-const total = getTotal
+const total = getTotal()
 return(
     <CartContext.Provider value={{cart,addItem,removeItem,clearCart,totalQuantity,total}}>
         { children }
