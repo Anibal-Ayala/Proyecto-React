@@ -1,11 +1,11 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
-import CartItem from '../CartItem/CartItem'
+
 import { Link } from "react-router-dom";
 
 
 const Cart = ( ) => {
-    const {cart, clearCart, totalQuantity,total} = useContext(CartContext)
+    const {cart, clearCart, totalQuantity,total, removeItem} = useContext(CartContext)
 
     if(totalQuantity===0){
         return(
@@ -18,12 +18,43 @@ const Cart = ( ) => {
 
 
     return(
-      <div style={{display:"flex", flexDirection:"column", margin:"2rem", alignItems:"center"}}>
-        {cart.map(p=><CartItem key={p.id}{...p}/>)}
-        <h3>Total: U$${total}</h3>
-        <button onClick={()=>clearCart()} className="btn btn-danger">Limpiar Carrito</button>
+
+      <>
+      
+      <h1>CART</h1>
+
+      <section>
+        {
+          cart.map(prod=>{
+            return(
+              <div key={prod.id} style={{width:"100%", display:"flex", justifyContent:"space-around", margin:"2rem"}}>
+                <h3>{prod.name}</h3>
+                <h4>Cantidad: {prod.quantity}</h4>
+                <h4>Precio por unidad  {prod.price}</h4>
+                <h4>Subtotal U$$ {prod.price * prod.quantity}</h4>
+                <button onClick={()=> removeItem (prod.id)} className="btn btn-danger" >Remover</button>
+
+
+
+              </div>
+            )
+          })
+        }
+      </section>
+      
+
+      <section>
+        <h2>Total: U$${total}</h2>
+      </section>
+      
+      <section>
         <Link to='/checkout'>Checkout</Link>
-      </div>
+      </section>
+      
+      </>
+
+    
+    
     )
 }
 
