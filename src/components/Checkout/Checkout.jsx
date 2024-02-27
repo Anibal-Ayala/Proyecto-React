@@ -10,7 +10,7 @@ const {cart, total} = useContext(CartContext)
 
 const createOrder = async (userData) => {
     const objOrder = {
-        buyer: {name:'anibal'},
+        buyer: userData,
         items: cart,
         total 
     }
