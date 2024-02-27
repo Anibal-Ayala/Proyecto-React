@@ -3,6 +3,9 @@ import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import OrderForm from "../OrderForm/OrderForm";
 
+import { db } from "../../services/firebase/firebaseConfig";
+import { collection, getDocs, where, query, documentId, writeBatch,addDoc } from "firebase/firestore";
+import { useState } from "react";
 
 
 const Checkout =() =>{
@@ -10,7 +13,7 @@ const {cart, total} = useContext(CartContext)
 
 const createOrder = async (userData) => {
     const objOrder = {
-        buyer: userData,
+        buyer: {name:'anibal'},
         items: cart,
         total 
     }
